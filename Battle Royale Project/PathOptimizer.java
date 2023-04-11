@@ -11,12 +11,12 @@ public class PathOptimizer {
   /**
    * The original map in a 2D char array.
    */
-  char[][] originalMap;
+  private char[][] originalMap;
 
   /**
    * The optimal path in a 2D char array.
    */
-  char[][] optimalPath;
+  private char[][] optimalPath;
 
   /**
    * The row index of the starting position ('p') on the map.
